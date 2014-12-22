@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>JHUB1 Online restful API</display-name>
+    <description>
+        This is restful API for JHUB1 online service.
+    </description>
+ <servlet>
+  <servlet-name>WebApp</servlet-name>
+  <servlet-class>org.jhub1.online.web.Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+        <servlet-name>WebApp</servlet-name>
+        <url-pattern>/webapp/*</url-pattern>
+ </servlet-mapping>
+</web-app>
